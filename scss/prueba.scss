@@ -35,6 +35,7 @@ nav {
     text-align: center;
     margin-bottom: 40px;
     height: 40px; 
+    text-decoration: none;
   }
  
 
@@ -65,7 +66,7 @@ p {
 }
 .map{
   width: 100%;
-  filter: grayscale(100%);
+  filter: grayscale(100%)
 }
 
 .map:hover{ 
@@ -162,9 +163,7 @@ footer {
     grid-template-columns: 98%;
     justify-items: center;
     justify-content: center; 
-  }
-  
-  
+   } 
 }
 
 #tit{
@@ -185,4 +184,31 @@ footer {
     filter: grayscale(0%);
     transform: translate(1100px, 0px);
  }  
+}
+
+.secc{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+  height: 40px;
+  text-decoration: none;
+  color:rgb(53, 24, 53)
+}
+@keyframes shop{
+  0%{
+    filter: grayscale(100%)
+  }
+  25%{
+    filter: grayscale(75%)
+  }
+  50%{
+    filter: grayscale(50%)
+  }
+  100%{
+    filter: grayscale(0%)
+  }
+}
+.shop{
+  animation-name: shop;
+  animation-duration: 3s;
 }
